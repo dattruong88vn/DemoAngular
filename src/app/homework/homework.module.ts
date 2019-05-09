@@ -7,13 +7,12 @@ import { HomeworkSlideComponent } from './homework-slide/homework-slide.componen
 import { HomeworkSmartphoneComponent } from './homework-smartphone/homework-smartphone.component';
 import { HomeworkLaptopComponent } from './homework-laptop/homework-laptop.component';
 import { HomeworkPromotionComponent } from './homework-promotion/homework-promotion.component';
-import { HomeworkSmartphoneItemComponent } from './homework-smartphone-item/homework-smartphone-item.component';
-import { HomeworkLaptopItemComponent } from './homework-laptop-item/homework-laptop-item.component';
 import { HomeworkPromotionItemComponent } from './homework-promotion-item/homework-promotion-item.component';
+import { HomeworkProductItemComponent } from './homework-product-item/homework-product-item.component';
 
 @NgModule({
-  declarations: [HomeworkComponent, HomeworkContainerComponent, HomeworkHeaderComponent, HomeworkSlideComponent, HomeworkSmartphoneComponent, HomeworkLaptopComponent, HomeworkPromotionComponent, HomeworkSmartphoneItemComponent, HomeworkLaptopItemComponent, HomeworkPromotionItemComponent],
-  exports: [HomeworkComponent, HomeworkContainerComponent, HomeworkHeaderComponent, HomeworkSlideComponent, HomeworkSmartphoneComponent, HomeworkLaptopComponent, HomeworkPromotionComponent, HomeworkSmartphoneItemComponent, HomeworkLaptopItemComponent, HomeworkPromotionItemComponent],
+  declarations: [HomeworkComponent, HomeworkContainerComponent, HomeworkHeaderComponent, HomeworkSlideComponent, HomeworkSmartphoneComponent, HomeworkLaptopComponent, HomeworkPromotionComponent, HomeworkPromotionItemComponent, HomeworkProductItemComponent],
+  exports: [HomeworkComponent, HomeworkContainerComponent, HomeworkHeaderComponent, HomeworkSlideComponent, HomeworkSmartphoneComponent, HomeworkLaptopComponent, HomeworkPromotionComponent, HomeworkPromotionItemComponent, HomeworkProductItemComponent],
   imports: [
     CommonModule
   ]
